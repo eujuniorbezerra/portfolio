@@ -5,13 +5,13 @@ const MyComponent = () => {
 
     const [text1] = useTypewriter({
         words: ["printf(\"Hello World👋\");"],
-        loop: false,
+        loop: 1,
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
       })
 
     const [text2] = useTypewriter({
         words: ["Front-End Developer."],
-        loop: false,
+        loop: 1,
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
      })
 
