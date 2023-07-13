@@ -752,10 +752,11 @@
 }
 
 .projects .project.links.D {
+    display: inline;
     width: 2.5rem;
     margin-top: 0rem;
     margin-right: 0rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     margin-left: 0.5rem;
     box-shadow: 0rem 0rem 0rem 0rem transparent;
 }

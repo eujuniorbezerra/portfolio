@@ -102,7 +102,7 @@ const Main = () => {
                             <p className="container-sm">&#47;&#42; Aplicativo de cadastro e login feito em Flutter. Onde pude aplicar meus conhecimentos no Framework. &#42;&#47;</p>
                             <p className="container-sm fw-bold">Flutter / Dart</p>
                             <a href="https://github.com/eujuniorbezerra/sign-and-login-app" target="_blank" rel="noopener noreferrer" title="Código no Github"><img className="project links D" src={github} alt="Github"></img></a>
-                            <a href="none"><img className="d-none project links D" src={website} alt="Website"></img></a>
+                            <a href="none"><img className="d-none" src={website} alt="Website"></img></a>
                         </div>
                     </div>                    
                 </div>
