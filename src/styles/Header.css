@@ -1,0 +1,146 @@
+:root {  
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-red: #FF0000;
+    --color-darkspace: #0D121B; 
+    --color-gray: #808080;
+    --color-redorange: #F5291D;
+    --color-purple: #6E2A8F;
+    --color-purplesemidark: #451762;
+    --color-purpledarker: #260B38;
+}
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto {
+    width: 100%;
+    height: 3rem !important;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-color: transparent;
+    background-color: #0D121B; /*darkspace. i can't insert as var :(*/
+}
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.github {
+    width: 2rem;
+}
+
+.linkedin {
+    width: 2rem;
+}
+
+.whatsapp {
+    width: 2rem;
+}
+
+.email {
+    width: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto {
+    width: 100%;
+    height: 3rem !important;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-color: transparent;
+    background-color: #0D121B; /*darkspace. i can't insert as var :(*/
+}
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.container-sm.d-flex.justify-content-start.align-items-center.w-100.h-auto {
+    display: none !important;
+}
+
+.container-sm.d-flex.justify-content-around.align-items-center {
+    display: none !important;
+}
+
+.container-sm.d-flex.justify-content-around.w-100.h-auto {
+    display: flex;
+    justify-content: space-evenly !important;
+    margin: 2rem;
+}
+
+.title.fs-3 {
+    display: none;
+}
+
+.option.fs-5 {
+    display: none;
+}
+
+.github {
+    width: 2.5rem;
+}
+
+.linkedin {
+    width: 2.5rem;
+}
+
+.whatsapp {
+    width: 2.5rem;
+}
+
+.email {
+    width: 2.5rem;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto {
+    width: 100%;
+    height: 3rem !important;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-color: transparent;
+    background-color: #0D121B; /*darkspace. i can't insert as var :(*/
+}
+
+.container-fluid.d-flex.position-fixed.justify-content-center.w-100.h-auto a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.container-sm.d-flex.justify-content-start.align-items-center.w-100.h-auto {
+    width: 40% !important;
+}
+
+.container-sm.d-flex.justify-content-around.w-100.h-auto {
+    display: flex;
+    width: 80% !important;
+}
+
+.github {
+    width: 2.5rem;
+}
+
+.linkedin {
+    width: 2.5rem;
+}
+
+.whatsapp {
+    width: 2.5rem;
+}
+
+.email {
+    width: 2.5rem;
+}
+
+}

@@ -1,0 +1,819 @@
+:root {  
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-red: #FF0000;
+    --color-darkblue: #1B2E43;
+    --color-gray: #808080;
+    --color-whitesmoke: #F5F5F5;
+    --color-redorange: #F5291D;
+    --color-purple: #6E2A8F;
+    --color-purplesemidark: #451762;
+    --color-purpledarker: #260B38;
+}
+
+.container-sm.d-flex.align-items-center.flex-column {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.fs-6.fw-bold {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0.2rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.1rem;
+    border-color: transparent;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.text {
+    width: 40%;
+    margin: 1rem;
+}
+
+.fs-5.fw-semibold.text-center {
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.container-fluid.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main {
+    width: 40%;
+    height: 4rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main img {
+    width: auto;
+    height: auto;
+}
+
+.container-fluid.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.text-center.fs-5.fw-bold.m-5 {
+    margin: 1.5rem !important;
+}
+
+.projects {
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.todolist.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.gigabyte.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+}
+
+.potiguar.items {
+    margin-top: 0rem;
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.flutter-app.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+}
+
+.projects .project.links.A {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 10rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.B {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 9rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.C {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 9rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.D {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 9rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist img {
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.gigabyte img {
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.gigabyte.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.potiguar img {
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.potiguar.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.flutter-app img {
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.flutter-app.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+@media only screen and (max-width: 767px) {
+
+.container-sm.d-flex.align-items-center.flex-column {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.fs-6.fw-bold {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0.2rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.1rem;
+    border-color: transparent;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.text {
+    width: 90%;
+    margin: 1rem;
+}
+
+.fs-5.fw-semibold.text-center {
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.container-fluid.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main {
+    width: 40%;
+    height: 4rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main img {
+    width: auto;
+    height: auto;
+}
+
+.container-fluid.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.projects {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.todolist.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.gigabyte.items {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.potiguar.items {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.flutter-app.items {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.projects .project.links.A {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.B {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.C {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .d-none.project.links.D {
+    display: inline !important;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.gigabyte img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.gigabyte.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.potiguar img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.potiguar.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.flutter-app img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.flutter-app.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+.container-sm.d-flex.align-items-center.flex-column {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.fs-6.fw-bold {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0.2rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.1rem;
+    border-color: transparent;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.text {
+    width: 90%;
+    margin: 1rem;
+}
+
+.fs-5.fw-semibold.text-center {
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.container-fluid.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main {
+    width: 100% !important;
+    height: 4rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main img {
+    width: auto;
+    height: auto;
+}
+
+.container-fluid.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.projects {
+    width: 100% !important;
+    flex-wrap: wrap;
+}
+
+.todolist.items {
+    margin-top: 0rem;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.gigabyte.items {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem !important;
+}
+
+.potiguar.items {
+    margin-top: 1rem;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.flutter-app.items {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem !important;
+}
+
+.projects .project.links.A {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.B {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.C {
+    display: inline;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .d-none.project.links.D {
+    display: inline !important;
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.gigabyte img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.gigabyte.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.potiguar img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.potiguar.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.flutter-app img {
+    display: none;
+    width: 30rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.flutter-app.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+.container-sm.d-flex.align-items-center.flex-column {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.fs-6.fw-bold {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0.2rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.1rem;
+    border-color: transparent;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.text {
+    width: 90%;
+    margin: 1rem;
+}
+
+.fs-5.fw-semibold.text-center {
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.container-fluid.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.main {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main {
+    width: 80%;
+    height: 4rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background-color: #0D121B;
+}
+
+.container-sm.d-flex.justify-content-evenly.align-items-center.main img {
+    width: auto;
+    height: auto;
+}
+
+.container-fluid.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm.d-flex.justify-content-center.projects {
+    width: 100%;
+    height: auto;
+    background-color: #0D121B;
+}
+
+.projects {
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.todolist.items {
+    margin-top: 0rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.gigabyte.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+}
+
+.potiguar.items {
+    margin-top: 0rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+}
+
+.flutter-app.items {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+}
+
+.projects .project.links.A {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.B {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.C {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.projects .project.links.D {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    margin-left: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist img {
+    width: 25rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.todolist.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.gigabyte img {
+    width: 25rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.gigabyte.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.potiguar img {
+    width: 25rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.potiguar.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.flutter-app img {
+    width: 25rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0rem 0rem transparent;
+}
+
+.flutter-app.items a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+}
