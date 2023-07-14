@@ -3,5 +3,11 @@ Meu primeiro portfólio para apresentação dos meus projetos.
 # Link:
 https://portfolio-eujuniorbezerra.vercel.app/
 # Tecnologias usadas:
-# React - Bootstrap - CSS3
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
+
+##
 ![portfolio](https://github.com/eujuniorbezerra/portfolio/assets/132306741/ca00352a-2972-40d7-b802-69f6ae63ec46)
